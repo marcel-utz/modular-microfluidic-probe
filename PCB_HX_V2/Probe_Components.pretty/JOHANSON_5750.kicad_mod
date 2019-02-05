@@ -1,0 +1,10 @@
+(module JOHANSON_5750 (layer F.Cu) (tedit 5915B064)
+  (fp_text reference REF** (at -5.5 -2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value JOHANSON_5750 (at 0 -4.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7 7) (drill 5) (layers *.Cu *.Mask))
+  (pad 2 smd rect (at 6.5 0) (size 3 3) (layers F.Cu F.Paste F.Mask))
+)
